@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ele-header></ele-header>
+    <ele-header :seller="seller"></ele-header>
     <div class="tab">
       <div class="tab-item">
         <router-link to="/goods">商品</router-link>
@@ -12,7 +12,7 @@
         <router-link to="/seller">商家</router-link>
       </div>
     </div>
-    <router-view></router-view>
+    <router-view :seller="seller"></router-view>
   </div>
 </template>
 
@@ -39,7 +39,6 @@
         .then(response => {
           //获取返回的数据
           const result = response.data
-          console.log('axios result ', result)
           // 更新状态
           if(result.code===0) {
             this.seller = result.data
