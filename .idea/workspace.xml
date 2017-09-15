@@ -3,26 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a715844-2c60-451c-b74a-68bffef197a6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/stylus/mixins.styl" afterPath="$PROJECT_DIR$/src/common/stylus/mixins.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/header.vue" afterPath="$PROJECT_DIR$/src/components/header/header.vue" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star24_half@2x.png" afterPath="$PROJECT_DIR$/src/components/star/star24_half@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star24_half@3x.png" afterPath="$PROJECT_DIR$/src/components/star/star24_half@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star24_off@2x.png" afterPath="$PROJECT_DIR$/src/components/star/star24_off@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star24_off@3x.png" afterPath="$PROJECT_DIR$/src/components/star/star24_off@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star24_on@2x.png" afterPath="$PROJECT_DIR$/src/components/star/star24_on@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star24_on@3x.png" afterPath="$PROJECT_DIR$/src/components/star/star24_on@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star36_half@2x.png" afterPath="$PROJECT_DIR$/src/components/star/star36_half@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star36_half@3x.png" afterPath="$PROJECT_DIR$/src/components/star/star36_half@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star36_off@2x.png" afterPath="$PROJECT_DIR$/src/components/star/star36_off@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star36_off@3x.png" afterPath="$PROJECT_DIR$/src/components/star/star36_off@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star36_on@2x.png" afterPath="$PROJECT_DIR$/src/components/star/star36_on@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star36_on@3x.png" afterPath="$PROJECT_DIR$/src/components/star/star36_on@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star48_half@2x.png" afterPath="$PROJECT_DIR$/src/components/star/star48_half@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star48_half@3x.png" afterPath="$PROJECT_DIR$/src/components/star/star48_half@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star48_off@2x.png" afterPath="$PROJECT_DIR$/src/components/star/star48_off@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star48_off@3x.png" afterPath="$PROJECT_DIR$/src/components/star/star48_off@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star48_on@2x.png" afterPath="$PROJECT_DIR$/src/components/star/star48_on@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/header/star48_on@3x.png" afterPath="$PROJECT_DIR$/src/components/star/star48_on@3x.png" />
     </list>
     <ignored path="ele.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -452,12 +432,20 @@
       <workItem from="1505435059066" duration="890000" />
       <workItem from="1505441723952" duration="101000" />
       <workItem from="1505441841856" duration="3000000" />
-      <workItem from="1505447005861" duration="2029000" />
+      <workItem from="1505447005861" duration="2079000" />
     </task>
+    <task id="LOCAL-00001" summary="star">
+      <created>1505449295100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505449295100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41062000" />
+    <option name="totallyTimeSpent" value="41112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,6 +491,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="star" />
+    <option name="LAST_COMMIT_MESSAGE" value="star" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
