@@ -213,7 +213,7 @@
       width 100%
       height 100%
   .detail
-    //display none
+    display none
     position fixed
     left 0
     top 0

@@ -19,6 +19,33 @@
 <script>
   import header from './components/header/header.vue'
   export default {
+    data () {
+      return {
+        seller: {}
+      }
+    },
+
+    mounted () {
+     /* // 使用vue-resource请求express提供的mock接口
+      this.$http.get('/api2/seller')
+        .then(response => {
+          //获取返回的数据
+          const result = response.body
+          console.log('vue-resource result ', result)
+        })*/
+      // 使用axios请求mockjs提供的mock接口
+      axios.get('/api/seller')
+        .then(response => {
+          //获取返回的数据
+          const result = response.data
+          console.log('axios result ', result)
+          // 更新状态
+          if(result.code===0) {
+            this.seller = result.data
+
+          }
+        })
+    },
     components:{
       'ele-header':header
     }
