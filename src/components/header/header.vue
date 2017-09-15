@@ -241,11 +241,11 @@
               background-repeat no-repeat
               background-size 10px 10px
             .on
-              bg-image(star24_on)
+              bg-star(star24_on)
             .half
-              bg-image(star24_half)
+              bg-star(star24_half)
             .off
-              bg-image(star24_off)
+              bg-star(star24_off)
           .star-36
             .star-item
               display inline-block
@@ -254,11 +254,11 @@
               background-repeat no-repeat
               background-size 15px 15px
             .on
-              bg-image(star36_on)
+              bg-star(star36_on)
             .half
-              bg-image(star36_half)
+              bg-star(star36_half)
             .off
-              bg-image(star36_off)
+              bg-star(star36_off)
           .star-48
             .star-item
               display inline-block
@@ -267,11 +267,11 @@
               background-repeat no-repeat
               background-size 20px 20px
             .on
-              bg-image(star48_on)
+              bg-star(star48_on)
             .half
-              bg-image(star48_half)
+              bg-star(star48_half)
             .off
-              bg-image(star48_off)
+              bg-star(star48_off)
 
         .title
           display flex
