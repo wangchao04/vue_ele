@@ -18,6 +18,7 @@
 
 <script>
   import header from './components/header/header.vue'
+  import axios from 'axios'
   export default {
     data () {
       return {
